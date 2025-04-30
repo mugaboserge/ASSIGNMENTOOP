@@ -1,0 +1,19 @@
+public class Resource {
+    private String resourceId;
+    private String resourceName;
+    private int quantity;
+    private String resourceType;
+
+    public Resource(String id, String name, int qty, String type) {
+        this.resourceId = id;
+        this.resourceName = name;
+        this.quantity = qty;
+        this.resourceType = type;
+    }
+
+    public String getResourceId() { return resourceId; }
+    public String getResourceName() { return resourceName; }
+    public int getQuantity() { return quantity; }
+    public void setQuantity(int quantity) { this.quantity = quantity; }
+    public String getResourceType() { return resourceType; }
+}
